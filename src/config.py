@@ -17,7 +17,7 @@ Always maintain a compassionate and understanding tone."""
 
 # Emergency resources
 EMERGENCY_RESOURCES = {
-    "emergency_services": "911",
-    "suicide_prevention": "988",
-    "crisis_text_line": "741741"
+    "emergency_services": "191",
+    "suicide_prevention": "+233547900439",
+    "crisis_text_line": "+233547900439"
 }
