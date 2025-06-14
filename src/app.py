@@ -1,11 +1,11 @@
 import streamlit as st
-from src.models.openai_client import OpenAIClient
-from src.utils.chat_utils import (
+from models.openai_client import OpenAIClient
+from utils.chat_utils import (
     initialize_chat_history,
     add_message,
     display_chat_messages
 )
-from src.config import EMERGENCY_RESOURCES
+from config import EMERGENCY_RESOURCES
 
 def setup_page():
     """Configure the Streamlit page settings."""

@@ -1,5 +1,5 @@
 import openai
-from src.config import OPENAI_API_KEY, MODEL_NAME, MAX_TOKENS, TEMPERATURE, SYSTEM_PROMPT
+from config import OPENAI_API_KEY, MODEL_NAME, MAX_TOKENS, TEMPERATURE, SYSTEM_PROMPT
 
 class OpenAIClient:
     def __init__(self):
