@@ -64,17 +64,17 @@ chatbot/
 ├── README.md              # Project documentation
 ├── requirements.txt       # Project dependencies
 ├── src/
-│   ├── __init__.py       # Note the double underscores
+│   ├── __init__.py       
 │   ├── config.py         # Configuration settings
 │   ├── models/
-│   │   ├── __init__.py   # Note the double underscores
+│   │   ├── __init__.py   
 │   │   └── openai_client.py
 │   ├── utils/
-│   │   ├── __init__.py   # Note the double underscores
+│   │   ├── __init__.py  
 │   │   └── chat_utils.py
 │   └── app.py
 └── tests/
-    └── __init__.py       # Note the double underscores
+    └── __init__.py       
 ```
 
 
