@@ -101,9 +101,9 @@ http://localhost:8501
 ## Emergency Resources 🚑
 
 If you're experiencing a mental health emergency:
-- Call emergency services: 911
-- National Suicide Prevention Lifeline: 988
-- Crisis Text Line: Text HOME to 741741
+- Call emergency services: 191
+- National Suicide Prevention Lifeline: +233547900439
+- Crisis Text Line: Text HOME to +233547900439
 
 ## Security 🔒
 
