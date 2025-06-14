@@ -56,23 +56,26 @@ OPENAI_API_KEY=your_api_key_here
 ```
 
 ## Project Structure 📁
+
+```
 chatbot/
-├── .env # Environment variables
-├── .gitignore # Git ignore file
-├── README.md # Project documentation
-├── requirements.txt # Project dependencies
+├── .env                    # Environment variables
+├── .gitignore             # Git ignore file
+├── README.md              # Project documentation
+├── requirements.txt       # Project dependencies
 ├── src/
-│ ├── init.py
-│ ├── config.py # Configuration settings
-│ ├── models/
-│ │ ├── init.py
-│ │ └── openai_client.py # OpenAI integration
-│ ├── utils/
-│ │ ├── init.py
-│ │ └── chat_utils.py # Chat utilities
-│ └── app.py # Main application
-└── tests/ # Test directory
-└── init.py
+│   ├── __init__.py       # Note the double underscores
+│   ├── config.py         # Configuration settings
+│   ├── models/
+│   │   ├── __init__.py   # Note the double underscores
+│   │   └── openai_client.py
+│   ├── utils/
+│   │   ├── __init__.py   # Note the double underscores
+│   │   └── chat_utils.py
+│   └── app.py
+└── tests/
+    └── __init__.py       # Note the double underscores
+```
 
 
 ## Usage 🎮
